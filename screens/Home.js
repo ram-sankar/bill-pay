@@ -63,7 +63,7 @@ function Home({navigation}) {
   return (
     <AppScreen style={styles.container}>
       <View style={styles.topHeadingContainer}>
-        <AppText style={[styles.heading]}>Bill Pay</AppText>
+        <AppText style={[styles.heading]}>FamFin</AppText>
         <Avatar source={mocks.profile.avatar} navigateTo="Profile" navigation={navigation}/>
       </View>
       
