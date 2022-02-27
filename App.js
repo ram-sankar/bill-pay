@@ -9,13 +9,15 @@ import Home from './screens/Home';
 import Profile from './screens/Profile';
 import Family from './screens/Family';
 import Dues from './screens/Dues';
+import Insurance from './screens/Insurance';
+import InsuranceDetails from './screens/InsuranceDetails';
 
 const Stack = createNativeStackNavigator();
 
 export default function App({navigation}) {
   return (
     <NavigationContainer theme={NavigationTheme}>
-      <Stack.Navigator initialRouteName="Login" screenOptions={{
+      <Stack.Navigator initialRouteName="InsuranceDetails" screenOptions={{
         headerShown: false
       }}>
         <Stack.Screen name="Welcome" component={Welcome} />
@@ -24,6 +26,8 @@ export default function App({navigation}) {
         <Stack.Screen name="Profile" component={Profile} />
         <Stack.Screen name="Family" component={Family} />
         <Stack.Screen name="Dues" component={Dues} />
+        <Stack.Screen name="Insurance" component={Insurance} />
+        <Stack.Screen name="InsuranceDetails" component={InsuranceDetails} />
       </Stack.Navigator>
     </NavigationContainer>
   );
