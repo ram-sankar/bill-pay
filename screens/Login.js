@@ -18,16 +18,17 @@ function Login({navigation}) {
 
   const [loginFailed, setLoginFailed] = useState(false)
   const handleSubmit = ({email, password}) => {
-    if (email==='arya@starks.com' && password==='NotToday') {
       return navigation.navigate('Home')
-    } else {
-      setLoginFailed(true)
-    }
+      // if (email==='arya@starks.com' && password==='NotToday') {
+    //   return navigation.navigate('Home')
+    // } else {
+    //   setLoginFailed(true)
+    // }
   }
 
   const loginForm = (
     <Form 
-        initialValues={{ email: "arya@starks.com", password: "NotToday" }}
+        initialValues={{ email: "ram.sankar@gmail.com", password: "NotToday" }}
         onSubmit={handleSubmit}
         validationSchema={validationSchema}
       >

@@ -19,7 +19,7 @@ export default {
   },
   headingText: {
     fontWeight: '700',
-    fontSize: 30,
-    marginBottom: 30
+    fontSize: 25,
+    marginBottom: 20
   }
 };

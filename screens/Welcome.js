@@ -10,14 +10,14 @@ function Welcome({navigation}) {
   return (
     <AppScreen style={styles.container}>
       <View style={styles.headingContainer}>
-        <AppText style={styles.text}>Your home.</AppText>
-        <AppText style={styles.textGreen}>Greener</AppText>
+        <AppText style={styles.text}>All your Bills in </AppText>
+        <AppText style={styles.textGreen}>Single App</AppText>
       </View>
       <AppText style={styles.secondaryText}>Enjoy the experience</AppText>
       <Image
         resizeMode="contain"
         style={styles.image}
-        source={require("../assets/images/illustration_1.png")}
+        source={require("../assets/images/welcome.png")}
       />
       <AppButton
         title="Login"
