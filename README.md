@@ -11,5 +11,5 @@ This gives a complete democratic family financial assets, which enables digital 
   <img width="300" alt="S2" src="https://user-images.githubusercontent.com/26500550/155892088-d8ae9306-4a25-4482-b50f-ac47b85f2141.jpeg">
   <img width="300" alt="S3" src="https://user-images.githubusercontent.com/26500550/155892140-33965d7d-9655-40d5-b3f8-b1c5261e6efa.jpeg">
   <img width="300" alt="S5" src="https://user-images.githubusercontent.com/26500550/155892133-289418aa-d00c-4aac-84a4-caa7434c13c3.jpeg">
-  <img width="300" alt="S6" src="(https://user-images.githubusercontent.com/26500550/155892239-acbe9c11-a616-46fd-aff9-0aea088b4943.jpeg">
+  <img width="300" alt="S6" src="https://user-images.githubusercontent.com/26500550/155892239-acbe9c11-a616-46fd-aff9-0aea088b4943.jpeg">
 </div>
