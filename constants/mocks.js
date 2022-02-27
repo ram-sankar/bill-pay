@@ -6,7 +6,7 @@ const categories = [
     iconName: 'hand-holding-medical',
     bg: 'lightOrange',
     color: 'orange',
-    navigateTo: 'Insurance'
+    navigateTo: 'InsuranceHome'
   },
   {
     id: "vehicle-insurance",
@@ -127,6 +127,37 @@ const dues = [
   },
 ]
 
+const insuranceDetails = [
+  {
+    id: '1',
+    name: 'Ravi Sankar',
+    date: '10/02/2022',
+    amount: '2,550',
+    paidBy: 'Shyam Sundar'
+  },
+  {
+    id: '2',
+    name: 'Shyam Sundar',
+    date: '07/01/2022',
+    amount: '1,700',
+    paidBy: 'Shyam Sundar'
+  },
+  {
+    id: '3',
+    name: 'Ram Sankar',
+    date: '23/09/2021',
+    amount: '1,500',
+    paidBy: 'Ram Sankar'
+  },
+  {
+    id: '4',
+    name: 'Amirtha Gowri',
+    date: '29/06/2021',
+    amount: '2,550',
+    paidBy: 'Shyam Sundar'
+  }
+]
+
 const profile = {
   username: "Ram Sankar",
   location: "Chennai",
@@ -138,4 +169,4 @@ const profile = {
   newsletter: false
 };
 
-export { categories, profile, family, dues };
+export { categories, profile, family, dues, insuranceDetails };

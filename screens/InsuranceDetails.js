@@ -67,7 +67,7 @@ function InsuranceDetails({navigation}) {
     <View style={styles.addMemberContainer}>
       <AppButton 
         title="Pay 4,350"
-        onPress={() => null}
+        onPress={() => navigation.navigate('Home')}
         style={styles.addMember}
       />
     </View>

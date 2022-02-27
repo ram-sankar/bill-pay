@@ -11,9 +11,8 @@ function Welcome({navigation}) {
     <AppScreen style={styles.container}>
       <View style={styles.headingContainer}>
         <AppText style={styles.text}>Unified Billing experience </AppText>
-        <AppText style={styles.textGreen}>For Family</AppText>
       </View>
-      <AppText style={styles.secondaryText}>Enjoy the experience</AppText>
+        <AppText style={styles.textGreen}>For Family</AppText>
       <Image
         resizeMode="contain"
         style={styles.image}

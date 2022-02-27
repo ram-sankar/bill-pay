@@ -50,7 +50,7 @@ function Insurance({navigation}) {
           placeholder="Pincode"
           keyboardType='numeric'
         />
-        <SubmitButton title="Login" style={styles.loginButton}/>
+        <SubmitButton title="Proceed" style={styles.loginButton}/>
       </Form>
   )
 
