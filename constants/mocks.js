@@ -49,6 +49,33 @@ const categories = [
   },
 ];
 
+const family = [
+  {
+    id: '0',
+    name: 'Ram Sankar',
+    relationship: 'You',
+    amount: '6,500',
+  },
+  {
+    id: '1',
+    name: 'Shyam Sundar',
+    relationship: 'Brother',
+    amount: '8,300',
+  },
+  {
+    id: '2',
+    name: 'Ravi Sankar',
+    relationship: 'Father',
+    amount: '23,520',
+  },
+  {
+    id: '3',
+    name: 'Amirtha Gowri',
+    relationship: 'Mother',
+    amount: 0,
+  },
+]
+
 const profile = {
   username: "Ram Sankar",
   location: "Chennai",
@@ -60,4 +87,4 @@ const profile = {
   newsletter: false
 };
 
-export { categories, profile };
+export { categories, profile, family };

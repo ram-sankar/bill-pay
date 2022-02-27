@@ -34,13 +34,9 @@ function Home({navigation}) {
     />
   )
 
-  const HR = () => (
-    <View style={styles.line}></View>
-  )
-
   const Family = () => (
     <View style={[styles.card, {backgroundColor: colors.lightBlue}]}>
-      <Pressable onPress={() => navigation.navigate("Product")}>
+      <Pressable onPress={() => navigation.navigate("Family")}>
         <View style={styles.cardContent}>
           <AppIcon Icon='MaterialIcons' color={colors.blue} name="family-restroom" size={24} />
           <View style={styles.itemNameContainer}>
@@ -70,7 +66,9 @@ function Home({navigation}) {
         <AppText style={[styles.heading]}>Bill Pay</AppText>
         <Avatar source={mocks.profile.avatar} navigateTo="Profile" navigation={navigation}/>
       </View>
-      <HR/>
+      
+      <View style={styles.line}></View>
+      
       <Family/>
       <BillDues/>
       <RenderItem />

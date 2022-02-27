@@ -10,8 +10,8 @@ function Welcome({navigation}) {
   return (
     <AppScreen style={styles.container}>
       <View style={styles.headingContainer}>
-        <AppText style={styles.text}>All your Bills in </AppText>
-        <AppText style={styles.textGreen}>Single App</AppText>
+        <AppText style={styles.text}>Unified Billing experience </AppText>
+        <AppText style={styles.textGreen}>For Family</AppText>
       </View>
       <AppText style={styles.secondaryText}>Enjoy the experience</AppText>
       <Image
