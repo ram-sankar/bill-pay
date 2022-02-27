@@ -34,8 +34,7 @@ const styles = StyleSheet.create({
     minWidth: 150
   },
   icon: {
-    marginRight: 10,
-    minWidth: 150
+    marginRight: 10
   },
 });
 

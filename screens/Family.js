@@ -19,18 +19,18 @@ function Family({navigation}) {
   const FamilyList = () => (
     <FlatList
       data={mocks.family}
-      renderItem={(category) => (
-        <View style={[styles.card, {backgroundColor: category.item.relationship === 'You' ? colors.lightOrange : colors.lightBlue}]}>
+      renderItem={(member) => (
+        <View style={[styles.card, {backgroundColor: member.item.relationship === 'You' ? colors.lightOrange : colors.lightBlue}]}>
           <View style={styles.cardContent}>
-            <View style={[styles.cardIconContainer, , {backgroundColor: category.item.relationship === 'You' ? colors.lightOrange2 : colors.lightBlue2}]}>
-              <AppText style={[styles.cardIcon]}>{category.item.name.charAt(0)}</AppText>
+            <View style={[styles.cardIconContainer, {backgroundColor: member.item.relationship === 'You' ? colors.lightOrange2 : colors.lightBlue2}]}>
+              <AppText style={[styles.cardIcon]}>{member.item.name.charAt(0)}</AppText>
             </View>
             <View style={styles.itemNameContainer}>
-              <AppText style={styles.itemName}>{category.item.name}</AppText>
-              <AppText style={styles.relationship}>{category.item.relationship}</AppText>
+              <AppText style={styles.itemName}>{member.item.name}</AppText>
+              <AppText style={styles.relationship}>{member.item.relationship}</AppText>
             </View>
             <View style={styles.amountContainer}>
-              <AppText style={styles.amount}>&#8377;{category.item.amount}</AppText>
+              <AppText style={styles.amount}>&#8377;{member.item.amount}</AppText>
               <AppText style={styles.amountNote}>Bill Amount Paid</AppText>
             </View>
           </View>

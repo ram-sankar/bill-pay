@@ -13,13 +13,13 @@ const colors = {
   gray10: "#7f8594",
   darkGrey: '#454545',
   appBackGround: '#f5f5f5',
-  lightGreen2: '#ddffda',
   transparent: '#00000000',
   orange: '#e57a48',
   lightOrange: '#fef6e9',
   lightOrange2: '#ffd287',
   green: '#48b08f',
   lightGreen: '#e9f8f5',
+  lightGreen2: '#94f2df',
   blue: '#2a7ce6',
   lightBlue: '#eaedff',
   lightBlue2: '#bdc6ff',
@@ -27,6 +27,7 @@ const colors = {
   lightRed: '#ffeaea',
   violet: '#a048b0',
   lightViolet: '#f9eaff',
+  tomato: '#ed4e4e',
 
 };
 

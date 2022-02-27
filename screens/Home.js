@@ -20,7 +20,7 @@ function Home({navigation}) {
       data={categories}
       renderItem={(category) => (
         <View style={[styles.card, {backgroundColor: colors[category.item.bg]}]}>
-          <Pressable onPress={() => navigation.navigate("Product", {name: category.item.name, count: category.item.count})}>
+          <Pressable onPress={() => navigation.navigate(category.item.navigateTo, {name: category.item.name, count: category.item.count})}>
             <View style={styles.cardContent}>
               <AppIcon Icon={category.item.iconType} color={colors[category.item.color]} name={category.item.iconName} size={24} />
               <View style={styles.itemNameContainer}>
@@ -49,7 +49,7 @@ function Home({navigation}) {
 
   const BillDues = () => (
     <View style={[styles.card, {backgroundColor: colors.lightViolet}]}>
-      <Pressable onPress={() => navigation.navigate("Product")}>
+      <Pressable onPress={() => navigation.navigate("Dues")}>
         <View style={styles.cardContent}>
           <AppIcon Icon='Ionicons' color={colors.violet} name="document-text-outline" size={24} />
           <View style={styles.itemNameContainer}>
@@ -68,7 +68,7 @@ function Home({navigation}) {
       </View>
       
       <View style={styles.line}></View>
-      
+
       <Family/>
       <BillDues/>
       <RenderItem />

@@ -5,7 +5,8 @@ const categories = [
     iconType: 'FontAwesome5',
     iconName: 'hand-holding-medical',
     bg: 'lightOrange',
-    color: 'orange'
+    color: 'orange',
+    navigateTo: 'Insurance'
   },
   {
     id: "vehicle-insurance",
@@ -13,7 +14,8 @@ const categories = [
     iconType: 'Ionicons',
     iconName: 'md-car-sport',
     bg: 'lightGreen',
-    color: 'green'
+    color: 'green',
+    navigateTo: 'Insurance'
   },
   {
     id: "electricity",
@@ -21,7 +23,8 @@ const categories = [
     iconType: 'MaterialIcons',
     iconName: 'electrical-services',
     bg: 'lightBlue',
-    color: 'blue'
+    color: 'blue',
+    navigateTo: 'Insurance'
   },
   {
     id: "gas-cylinder",
@@ -29,7 +32,8 @@ const categories = [
     iconType: 'MaterialCommunityIcons',
     iconName: 'gas-cylinder',
     bg: 'lightRed',
-    color: 'red'
+    color: 'red',
+    navigateTo: 'Insurance'
   },
   {
     id: "dth",
@@ -37,7 +41,8 @@ const categories = [
     iconType: 'Ionicons',
     iconName: 'ios-tv-outline',
     bg: 'lightGreen',
-    color: 'green'
+    color: 'green',
+    navigateTo: 'Insurance'
   },
   {
     id: "broadband",
@@ -45,7 +50,8 @@ const categories = [
     iconType: 'FontAwesome5',
     iconName: 'inbox',
     bg: 'lightBlue',
-    color: 'blue'
+    color: 'blue',
+    navigateTo: 'Insurance'
   },
 ];
 
@@ -76,6 +82,51 @@ const family = [
   },
 ]
 
+const dues = [
+  {
+    id: '0',
+    type: 'electricity',
+    name: 'Electricity Bill',
+    amount: '1,320',
+    daysLeft: 5,
+  },
+  {
+    id: '1',
+    type: 'dth',
+    name: 'DTH bill',
+    amount: '270',
+    daysLeft: 7,
+  },
+  {
+    id: '2',
+    type: 'broadband',
+    name: 'Broadband bill',
+    amount: '899',
+    daysLeft: 14,
+  },
+  {
+    id: '3',
+    type: 'medInsurance',
+    name: 'Medical Insurance',
+    amount: '7,500',
+    daysLeft: 35,
+  },
+  {
+    id: '4',
+    type: 'bikeInsurance',
+    name: 'Bike Insurance',
+    amount: '1,400',
+    daysLeft: 82,
+  },
+  {
+    id: '5',
+    type: 'carInsurance',
+    name: 'Car Insurance',
+    amount: '4,700',
+    daysLeft: 153,
+  },
+]
+
 const profile = {
   username: "Ram Sankar",
   location: "Chennai",
@@ -87,4 +138,4 @@ const profile = {
   newsletter: false
 };
 
-export { categories, profile, family };
+export { categories, profile, family, dues };
